@@ -1,7 +1,7 @@
  Scrum Task Manager
-Gerenciador de tarefas inspirado na metodologia Scrum, com quadro Kanban dividido em três colunas: Para Realizar, Em Progresso e Concluído. Desenvolvido com o objetivo de auxiliar na organização de estudos e tarefas do dia a dia.
+Gerenciador de tarefas inspirado na metodologia Scrum, dividido em três colunas: Para Realizar, Em Progresso e Concluído. Desenvolvido com o objetivo de auxiliar na organização de estudos e tarefas do dia a dia.
 
-✨ Funcionalidades
+Funcionalidades:
 
 Adicionar tarefas — via botão ou pressionando Enter
 Remover tarefas — clique no X ao lado da tarefa
@@ -9,11 +9,7 @@ Editar tarefas — duplo clique sobre a tarefa para editar o texto
 Arrastar e soltar (Drag & Drop) — mova tarefas entre as colunas livremente
 Persistência com localStorage — as tarefas são salvas no navegador e recarregadas ao reabrir a página
 
-
-🖼️ Estrutura do Quadro
-ColunaDescriçãoPara RealizarTarefas pendentes / backlogEm ProgressoTarefas sendo executadasConcluídoTarefas finalizadas
-
-🛠️ Tecnologias Utilizadas
+Tecnologias Utilizadas:
 
 HTML5 — estrutura da aplicação
 CSS3 — estilização e layout responsivo com Flexbox
@@ -26,7 +22,7 @@ scrum-task-manager/
 ├── style.css    # Estilos e layout
 └── script.js    # Lógica da aplicação
 
-🚀 Como Usar
+ Como Usar
 
 Clone ou faça o download do repositório:
 
@@ -36,7 +32,7 @@ Abra o arquivo index.html no seu navegador — nenhuma instalação ou dependên
 Comece a adicionar suas tarefas e organizá-las no quadro!
 
 
-💡 Como Funciona
+Como Funciona:
 
 Adicionar: Digite a tarefa no campo de input e clique em Adicionar ou pressione Enter. A tarefa aparece na coluna Para Realizar.
 Mover: Arraste a tarefa e solte na coluna desejada.
@@ -45,5 +41,5 @@ Remover: Clique no X para excluir a tarefa.
 Salvar automaticamente: Toda ação (adicionar, mover, editar, remover) salva o estado no localStorage.
 
 
-📌 Motivação
+Motivação:
 Projeto desenvolvido para praticar HTML, CSS e JavaScript puro, com aplicação prática de conceitos como manipulação do DOM, eventos, Drag & Drop API e persistência com localStorage, tudo inspirado na metodologia ágil Scrum.
