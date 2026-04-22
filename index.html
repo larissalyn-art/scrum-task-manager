@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scrum Task Manager</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Gerenciador de Tarefas - Scrum</h1>
+    <div class="task-container">
+        <div class="task-column" id="todo">
+            <h2>Para Realizar</h2>
+    </div>
+        <div class="task-column" id="inpro">
+            <h2>Em Progresso</h2>
+        </div>
+        <div class="task-column" id="done">
+            <h2>Concluído</h2>
+        </div>
+
+        <div class="addTask">
+            <input type="text" id="taskInput" placeholder="Adicionar nova tarefa">
+            <button onclick="addTask()">Adicionar</button>
+        </div>
+    </div>
+        <script src="script.js"></script>
+</body>
+</html>
